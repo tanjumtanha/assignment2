@@ -79,7 +79,14 @@ nav ul li a {
     font-size: 20px;
     padding: 5px 10px;
 }
-
+.btn-primary:hover{
+    background: #3590a7b6;
+    border-radius: 0px 20px 20px 20px;
+}
+.btn-secondary:hover{
+    background: rgba(24, 214, 125, 0.812);
+    border-radius: 0px 20px 20px 20px;
+}
 /* Banner design */
 .banner {
     padding: 50px 240px;
@@ -192,18 +199,21 @@ nav ul li a {
 
 .feature2 img {
     width: 600px;
-    height: 1150px;
+    height: 1250px;
     margin-bottom: 20px;
 }
 
 .btn-secondary {
+    position: absolute;
+    top: 3250px;
+    left: 650px;
     background: #FF900E;
     border-radius: 8px;
+    border: 0;
     color: #FFFFFF;
     text-align: center;
     padding: 40px 40px;
     font-size: 25px;
-    border: 0;
 }
 .feature2-btn {
     font-weight: 700;
@@ -378,9 +388,11 @@ nav ul li a {
     }
 
     .btn-secondary {
-        padding: 20px 40px;
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 10px;
     }
-
     .facts {
         padding: 0 5px;
     }
